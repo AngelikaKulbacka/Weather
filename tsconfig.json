@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@types": ["./src/@types/index"],
+      "@styles/*": ["./src/styles/*"],
+      "@components/*": ["./src/components/*"],
+      "@store/*": ["./src/store/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@services/*": ["./src/services/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@router/*": ["src/router/*"],
+      "@paths/*": ["./src/paths/*"],
+      "@dictionary/*": ["./src/dictionary/*"],
+      "@plugins/*": ["./src/plugins/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@resources": ["./src/resources/index"],
+      "@src/*": ["./src/*"],
+      "@root/*": ["./*"]
+    },
+    "lib": ["esnext", "dom"]
+  },
+  "include": ["./src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "/overrides.ts"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

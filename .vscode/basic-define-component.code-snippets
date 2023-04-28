@@ -1,0 +1,30 @@
+{
+  "Basic Vue Component with DefineComponent": {
+    "prefix": "component-d",
+    "body": [
+      "<template>",
+      "  <a-typography-title>${1:ExampleComponent}!</a-typography-title>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "//#region vendor",
+      "import { defineComponent } from 'vue';",
+			"//#endregion",
+			"//#region internal",
+			"//#endregion",
+			"",
+      "export default defineComponent({",
+      "  name: '${1:ExampleComponent}',",
+      "  components: {}",
+      "});",
+      "</script>",
+      "",
+      "<style lang=\"less\" scoped>",
+      "@import '@styles/base/variables.less';",
+      "@import '@styles/base/mixins.less';",
+      "</style>",
+      ""
+    ],
+    "description": "Basic Vue Component with DefineComponent"
+  }
+}

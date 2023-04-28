@@ -1,0 +1,19 @@
+{
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "todo-tree.tree.disableCompactFolders": true,
+  "npm.enableTouchbar": true,
+  "prettier.endOfLine": "crlf",
+  "files.associations": {
+    "*.env.development": "env",
+    "*.env.production": "env"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+  "files.eol": "\r\n",
+  "volar.completion.preferredAttrNameCase": "camel",
+  "volar.completion.preferredTagNameCase": "pascal"
+}

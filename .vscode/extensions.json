@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "ant-design-vue.vscode-ant-design-vue-helper",
+    "rvest.vs-code-prettier-eslint",
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.npm-intellisense",
+    "formulahendry.auto-close-tag",
+    "johnsoncodehk.volar",
+    "gruntfuggly.todo-tree",
+    "esbenp.prettier-vscode",
+    "irongeek.vscode-env"
+  ]
+}

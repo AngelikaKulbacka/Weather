@@ -1,0 +1,31 @@
+export enum EColorNames {
+  Pink = 'pink',
+  Red = 'red',
+  Yellow = 'yellow',
+  Orange = 'orange',
+  Cyan = 'cyan',
+  Green = 'green',
+  Blue = 'blue',
+  Purple = 'purple',
+  Geekblue = 'geekblue',
+  Magenta = 'magenta',
+  Volcano = 'volcano',
+  Gold = 'gold',
+  Lime = 'lime',
+}
+
+export enum EColors {
+  Pink = '#eb2f96',
+  Red = '#f5222d',
+  Yellow = '#fadb14',
+  Orange = '#fa8c16',
+  Cyan = '#13c2c2',
+  Green = '#52c41a',
+  Blue = '#1890ff',
+  Purple = '#722ed1',
+  Geekblue = '#2f54eb',
+  Magenta = '#eb2f96',
+  Volcano = '#fa541c',
+  Gold = '#faad14',
+  Lime = '#a0d911',
+}
